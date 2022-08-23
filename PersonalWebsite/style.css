@@ -1,0 +1,429 @@
+*{
+	box-sizing: border-box;
+
+	padding: 0px;
+	margin: 0px;
+
+}
+
+body{
+	overflow-x: hidden;
+}
+
+.home .img{
+	background-image: url(https://lh3.googleusercontent.com/Oc0YQalAVL-AHvwxXHCndGJm1C8LLYm9rxl877r5lRjxsPm1ECxwrv53BNgBYQB39KGOZGSgyuHGLTd_Ox6ukFF_tUWTxw2xq6w75yMMYf4FXv63pJs24hUFGCGkoY56lv4TTOIVs0bZi_1feruJJh6l66KqsXyxJPALzQvVfhTrFeqmPoDmXvHM9M9Uc1_o6oYcIdx-XD_t67MXndZFb6NQeBYftHf4HDYwMUEMyBEwbRX3huoGCnt5HG7ww6CgtYEEQRecKPzf5RLTpJ-uJGXN0dRo_hMmTiyvZOCr9ENpm1p-pE0LCwEZSkvjwZx6a6Fn9oOb1MuNpFBlVvb3whdjTCp7pXQRN4S5Wk2owb5aUOllTN4Xk-y6p8mU8RZrI3rvbO4Pd6F_TCgpbvUXgzD781CBta2ucCG7wBdeyi73j0Wyh5rRinws7diwT932-4sRrq8XcVm4mO6Qa-vTgSUAFaMEHZ7ya_LhaIJ580d5QRMWKwglxA2lkUFa0yPE-L5RgMp8xMRE1gOSYM89bsxF6EDUzi1LAwagsVpTe9QiBapBVCI5nTobhKpU4o72C92nDQ6PsA6tFTvmgH9B9IK6J8MJ71IELzvJm94zAxOMeSbmSyq9AkuYpMpAEHtI8WI0TR14SniUttdB4x3l3q-kN3yFM34p8hwyExn3KQl2rgtCascoQ2eANI9mbA=w1748-h888-no?authuser=0);
+  	background-size: cover;
+  	height: 970px;
+  	width: 100%;
+  	margin: 0px;
+  	padding: 0px;
+  	overflow-x: auto;
+  	position: absolute;
+  	opacity: 50%;
+  	top: 0px;
+  	right: 0px;
+  	left: 0px;
+  	bottom: 0px;
+  	text-align: center;
+
+
+}
+
+
+
+
+#header-nav{
+	border-radius: 0;
+	border: 0;
+	font-size: 50%;
+
+
+
+
+}
+
+
+ #home_message {
+	color: white;
+	height: 100px;
+	width: 350px;
+	position: relative;
+	background-color: #000000;
+	top: 370px;
+	line-height: 100px;
+	font-size: 30px;
+	text-align: center;
+
+
+
+}
+
+.icons, .icons img{
+   text-decoration: none !important;
+   border:0px !important;
+   outline:none;
+   border-width: 0px;
+   outline-width:0px;
+   border-bottom: none;
+
+
+}
+
+.icons, .icons img:hover{
+
+
+}
+
+
+#researchgate:hover{
+	background-image: url('researchgate_inv.png')
+	background-size: contain;
+}
+
+
+ .Aboutme{
+	position: relative;
+	overflow-wrap: break-word;
+	width: 100%;
+	top: 800px; 
+	line-height: 100px;
+	margin-right: 50px;
+	padding-left: 1em;
+	padding-top: 1em;
+	font-size: 300%;
+
+
+
+
+
+}
+
+#nav{
+	margin-right: 0px;
+	padding-right: 0px;
+	background-color: black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+
+
+}
+
+#nav a{
+	color: white;
+	text-decoration: none;
+	padding: 2px;
+	margin: 2px;
+
+}
+
+#nav a:hover {
+	color: #DCDCDC;
+	transition: all 0.5s;
+
+}
+
+
+
+
+
+
+
+
+.quote {
+	text-align: center;
+	position: relative;
+	color: black;
+	top: 380px;
+	font-size: 20px;
+	display: none;
+}
+
+
+.slideshow{
+	display: none;
+	cursor: pointer;
+	position: relative;
+	left: 25%;
+	box-shadow: 
+
+
+}
+
+
+
+
+#buttonleft{
+	position: relative;
+	left: 25%;
+	cursor: pointer;
+	resize: 300%;
+
+}
+
+
+#buttonright{
+
+	position: relative;
+	left: 20%;
+	cursor: pointer;
+
+}
+
+
+
+
+
+
+.two-columns{
+
+	display: grid;
+    grid-template-columns: 45% 45%;
+    grid-column-gap: 10%;
+    grid-row-gap: 2em;
+}
+
+
+#Philosophy{
+	position: relative;
+	overflow-wrap: break-word;
+	width: 100%;
+	top: 800px; 
+	line-height: 30px;
+	margin-right: 50px;
+	clear:right;
+	padding-left: 2em;
+	padding-right: 2em;
+	font-size: 200%;
+	line-height: 100px;
+}
+
+
+.Projects{
+
+	position: relative;
+	overflow-wrap: break-word;
+	top: 800px; 
+	line-height: 30px;
+	float: left;
+	padding-right: 1em;
+	padding-left: 1em;
+	padding-bottom: 1em;
+	text-align: center;
+
+
+}
+
+#boxes{
+
+	resize: both;
+	overflow: auto;
+
+	width: 100%;
+
+}
+
+.box{
+	width: 50%;
+}
+
+
+.col-lg-3{
+
+	border: 2px white;
+	overflow-wrap: break-word;
+	float: left;
+	position: relative;
+	left: 7%;
+	margin-top: 1em;
+	text-align: center;
+	vertical-align: top
+	padding-top: 1em;
+	resize: both;
+
+
+	}
+
+.caption{
+	display: block;
+	font-size: 300%;
+	padding-top: 10px;
+}	
+
+
+
+.col-lg-6{
+	width: 45%;
+	float: left;
+	padding-right: 10px;
+	
+
+	
+
+}
+
+
+a{
+	cursor: pointer;
+
+}
+
+
+
+
+
+#full{
+	width: 100%;
+	padding-left: 3em;
+}
+
+#leftbox{
+	padding-left: 0.5em;
+}
+
+#rightbox{
+	left: 70%;
+}
+
+
+
+.Music{
+
+	position: relative;
+	top: 1500px;
+}
+
+
+.bigfont{
+	font-size: 400%;
+
+}
+
+.smallerfont{
+	font-size: 200%;
+}
+
+
+#rit{
+	  	  display: none;
+  	  text-align: center;
+}
+
+
+
+#cornell{  	  display: none;
+  	  text-align: center;}
+/*.mit{  	  display: none;
+  	  text-align: center;}
+.service{  	  display: none;
+  	  text-align: center;}
+*/
+
+.popup{
+
+	display: inline-block; 
+	position: relative;
+	top: 200px;
+	float: left;
+	background-color: gray;
+	width: 100%;
+	align-self: center;
+	border: black;
+	image-rendering: auto;
+	margin-left: 1.5em;
+
+
+
+}
+
+
+.tapir{
+
+	z-index: 5;
+	
+
+}
+
+
+#header-nav{
+	margin-top: 1em;
+	font-size: 2em;
+}
+
+
+#navbar-nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.left_box{
+	float: left;
+	margin: 0px;
+	margin-left: 10px;
+	padding: 0px;
+	display: inline;
+	text-align: center;
+}
+
+#RIT_pic{
+
+background-image: url('RIT-3.jpg');
+display: inline;
+text-align: center;
+background-size: contain;
+
+
+}
+
+.right_box{
+	float: left;
+	margin: 0px;
+	margin-right: 10px;
+}
+
+#Cornell_pic{
+	background-size: : contain;
+	display: inline;
+	text-align: center;
+	background-size: contain;
+
+}
+
+#MIT_pic{
+	float: left;
+
+}
+
+#Service_pic{
+	float: right;
+
+
+.text_box{
+
+	text-align: center;
+	width: 50%;
+	padding-right: 0px;
+	vertical-align: middle;
+}
+
+.wrapper{
+	margin: 4em;
+	margin-right: 4em!important;
+	margin-left: 4em!important;
+	width: 96%!important;
+}
+
+
+.row_wrapper{
+
+	padding-bottom: 1em;
+	border-width: 10px;
+	border-color: black;
+	padding-left: 0px!important;
+
+}
+
+
